@@ -1,0 +1,410 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "EMI Calculator":
+      - /url: https://emicalculator.net/
+    - list:
+      - listitem:
+        - link "Loan Calculators, Widgets & Rates":
+          - /url: "#"
+      - listitem:
+        - link "Articles":
+          - /url: https://emicalculator.net/category/articles/
+      - listitem:
+        - link "Product Reviews":
+          - /url: https://emicalculator.net/category/reviews/
+      - listitem:
+        - link "News & Opinion":
+          - /url: https://emicalculator.net/category/news-opinion/
+- document:
+  - main:
+    - article:
+      - heading "Home Loan EMI Calculator with Prepayments, Taxes & Insurance" [level=1]
+      - heading "Home Loan Details" [level=3]
+      - text: Home Value (HV)
+      - textbox "Home Value (HV)": 50,00,000
+      - text: ₹ Margin OR Down Payment (DP)
+      - textbox "Margin OR Down Payment (DP)": "64"
+      - radio "%" [checked]
+      - text: "%"
+      - radio "₹"
+      - text: ₹ Loan Insurance (LI)
+      - textbox "Loan Insurance (LI)": "0"
+      - text: ₹ Loan Amount (HV + LI – DP)
+      - textbox "Loan Amount (HV + LI – DP)": 18,00,000
+      - text: ₹ Interest Rate
+      - textbox "Interest Rate": "9.2"
+      - text: "% Loan Tenure"
+      - textbox "Loan Tenure": "4"
+      - radio "Yr" [checked]
+      - text: Yr
+      - radio "Mo"
+      - text: Mo Loan Fees & Charges
+      - textbox "Loan Fees & Charges": "1"
+      - radio "%" [checked]
+      - text: "%"
+      - radio "₹"
+      - text: ₹ Start Month & Year
+      - textbox "Start Month & Year": Jul 2025
+      - text: 
+      - heading "Homeowner Expenses" [level=3]
+      - text: One-time Expenses
+      - textbox "One-time Expenses": "0"
+      - radio "%" [checked]
+      - text: "%"
+      - radio "₹"
+      - text: ₹ Property Taxes / year
+      - textbox "Property Taxes / year": "0"
+      - radio "%" [checked]
+      - text: "%"
+      - radio "₹"
+      - text: ₹ Home Insurance / year
+      - textbox "Home Insurance / year": "0"
+      - radio "%" [checked]
+      - text: "%"
+      - radio "₹"
+      - text: ₹ Maintenance Expenses / month
+      - textbox "Maintenance Expenses / month": 1,000
+      - text: ₹
+      - button " Add Prepayments"
+      - table:
+        - rowgroup:
+          - row "Principal & Interest (EMI) ₹ 44,964":
+            - cell "Principal & Interest (EMI)"
+            - cell "₹ 44,964"
+          - row "Monthly Extra Payment ₹ 0":
+            - cell "Monthly Extra Payment"
+            - cell "₹ 0"
+          - row "Property Taxes ₹ 0":
+            - cell "Property Taxes"
+            - cell "₹ 0"
+          - row "Home Insurance ₹ 0":
+            - cell "Home Insurance"
+            - cell "₹ 0"
+          - row "Maintenance Expenses ₹ 1,000":
+            - cell "Maintenance Expenses"
+            - cell "₹ 1,000"
+          - row "Total Monthly Payment ₹ 45,964":
+            - cell "Total Monthly Payment"
+            - cell "₹ 45,964"
+      - img: Totalof allPayments
+      - table:
+        - rowgroup:
+          - row "Down Payment, Fees & One-time Expenses ₹ 32,18,000":
+            - cell "Down Payment, Fees & One-time Expenses"
+            - cell "₹ 32,18,000"
+          - row "Principal ₹ 18,00,000":
+            - cell "Principal"
+            - cell "₹ 18,00,000"
+          - row "Prepayments ₹ 0":
+            - cell "Prepayments"
+            - cell "₹ 0"
+          - row "Interest ₹ 3,58,282":
+            - cell "Interest"
+            - cell "₹ 3,58,282"
+          - row "Taxes, Home Insurance & Maintenance ₹ 48,000":
+            - cell "Taxes, Home Insurance & Maintenance"
+            - cell "₹ 48,000"
+      - text: Total of all Payments ₹ 54,24,282
+      - insertion
+      - insertion
+      - text: Home Loan Payment Schedule (Jul 2025 - Jun 2029)
+      - img: Home Loan Payment / year Balance Principal Prepayments Interest Taxes, Home Insurance & Maintenance Balance 2025 2026 2027 2028 2029 ₹ 0 ₹ 1,20,000 ₹ 2,40,000 ₹ 3,60,000 ₹ 4,80,000 ₹ 6,00,000 ₹ 0 ₹ 4,00,000 ₹ 8,00,000 ₹ 12,00,000 ₹ 16,00,000 ₹ 20,00,000
+      - table:
+        - rowgroup:
+          - row "Year Principal (A) Interest (B) Taxes, Home Insurance & Maintenance (C) Total Payment (A + B + C) Balance Loan Paid To Date":
+            - cell "Year"
+            - cell "Principal (A)"
+            - cell "Interest (B)"
+            - cell "Taxes, Home Insurance & Maintenance (C)"
+            - cell "Total Payment (A + B + C)"
+            - cell "Balance"
+            - cell "Loan Paid To Date"
+          - row " 2025 ₹ 1,90,606 ₹ 79,179 ₹ 6,000 ₹ 2,75,785 ₹ 16,09,394 10.59%":
+            - cell " 2025"
+            - cell "₹ 1,90,606"
+            - cell "₹ 79,179"
+            - cell "₹ 6,000"
+            - cell "₹ 2,75,785"
+            - cell "₹ 16,09,394"
+            - cell "10.59%"
+          - row:
+            - cell
+          - row " 2026 ₹ 4,08,444 ₹ 1,31,126 ₹ 12,000 ₹ 5,51,571 ₹ 12,00,950 33.28%":
+            - cell " 2026"
+            - cell "₹ 4,08,444"
+            - cell "₹ 1,31,126"
+            - cell "₹ 12,000"
+            - cell "₹ 5,51,571"
+            - cell "₹ 12,00,950"
+            - cell "33.28%"
+          - row:
+            - cell
+          - row " 2027 ₹ 4,47,647 ₹ 91,924 ₹ 12,000 ₹ 5,51,571 ₹ 7,53,303 58.15%":
+            - cell " 2027"
+            - cell "₹ 4,47,647"
+            - cell "₹ 91,924"
+            - cell "₹ 12,000"
+            - cell "₹ 5,51,571"
+            - cell "₹ 7,53,303"
+            - cell "58.15%"
+          - row:
+            - cell
+          - row " 2028 ₹ 4,90,612 ₹ 48,959 ₹ 12,000 ₹ 5,51,571 ₹ 2,62,692 85.41%":
+            - cell " 2028"
+            - cell "₹ 4,90,612"
+            - cell "₹ 48,959"
+            - cell "₹ 12,000"
+            - cell "₹ 5,51,571"
+            - cell "₹ 2,62,692"
+            - cell "85.41%"
+          - row:
+            - cell
+          - row " 2029 ₹ 2,62,692 ₹ 7,094 ₹ 6,000 ₹ 2,75,785 ₹ 0 100%":
+            - cell " 2029"
+            - cell "₹ 2,62,692"
+            - cell "₹ 7,094"
+            - cell "₹ 6,000"
+            - cell "₹ 2,75,785"
+            - cell "₹ 0"
+            - cell "100%"
+          - row:
+            - cell
+      - paragraph: Want to download OR share a custom link to your EMI calculation (with all your numbers pre-filled)?
+      - button " Download PDF"
+      - button " Download Excel"
+      - button " Share"
+      - heading "How to Use Home Loan EMI Calculator?" [level=2]
+      - paragraph: Using our Home Loan EMI Calculator, you can calculate how much monthly and total expenditure you really incur by purchasing a home using your bank home loan.
+      - paragraph:
+        - strong: Home Loan Details
+        - text: includes single premium loan insurance and processing fees.
+      - list:
+        - listitem:
+          - strong: Home Value
+          - text: is the actual price of the home you purchased (i.e., sale deed value). 
+        - listitem:
+          - strong: Down Payment, aka Margin
+          - text: ", is the total money you paid to the seller or builder from your own pocket, entered either in Rupees or as a percentage of Home Value. "
+        - listitem:
+          - strong: Loan Insurance
+          - text: is the single premium amount, for the
+          - link "Home Loan Protection Plan":
+            - /url: https://emicalculator.net/home-loan-protection-plan-what-bank-officials-wont-tell-you
+          - text: (HLPP) OR Term Insurance Plan, that gets included in your home loan amount. If you want to guesstimate this amount, use the
+          - link "LIC premium calculator":
+            - /url: https://www.licindia.in/premium_calculator.htm
+          - text: to calculate yearly premium for eTerm plan using your age, loan term and loan amount for Sum Assured. You then multiply this number by your loan tenure. 
+        - listitem:
+          - strong: Loan Amount
+          - text: is calculated as
+          - strong: Home Value + Loan Insurance — Down Payment
+          - text: . 
+        - listitem:
+          - strong: Interest Rate
+          - text: charged by the bank / lender. 
+        - listitem:
+          - strong: Loan Fees & Charges
+          - text: includes Processing Fees, Administrative Charges etc. along with service taxes, entered either in Rupees or as a percentage of Loan Amount. 
+      - paragraph:
+        - strong: Homeowner Expenses
+        - text: can be entered either in Rupees or as a percentage of Home Value. You will not pay property taxes and home insurance premium each month, but it is included in the total monthly payment with the assumption that you are setting aside this amount (either through
+        - link "Recurring Deposit":
+          - /url: https://emicalculator.net/recurring-deposits-an-incredibly-useful-product
+        - text: or some other means) every month. This will ensure that you will have the necessary money to make the payment once or twice a year. Please note that the recurring expenses will change over the lifetime of the home loan due to inflation and other factors. They will also continue beyond the home loan tenure. You should consider all these factors, especially when making a
+        - link "Rent vs. Buy":
+          - /url: https://emicalculator.net/buy-or-rent-financial-factors-that-you-must-not-ignore-while-making-your-decision
+        - link "decision":
+          - /url: https://emicalculator.net/factors-to-consider-in-buying-vs-renting-a-home
+        - text: .
+      - list:
+        - listitem:
+          - strong: One-time Expenses
+          - text: can include Registration Fees, Stamp Duty and money you spent on sprucing up your new home. Optionally, you could also include the bribe you paid to the Govt Babu (during sale deed registration) and the amount spent on a lavish house warming ceremony (after all, this is a great occasion to show off in front of your friends & relatives). 
+        - listitem:
+          - strong: Property Taxes
+          - text: is the annual payment that you grudgingly make to your local municipal body. 
+        - listitem:
+          - strong:
+            - link "Home Insurance":
+              - /url: https://emicalculator.net/should-you-buy-home-insurance
+          - text: is the yearly premium you pay to insure your home—if it isn’t already covered by loan insurance plan. 
+        - listitem:
+          - strong: Monthly Maintenance Expenses
+          - text: is what you pay to keep your apartment secure, clean and resourceful. If its an independent house, you can assume your annual maintenance expenditure to be about one percent of your home value. Divide this number by 12 to arrive at monthly maintenance amount. 
+      - paragraph:
+        - link "Prepayments":
+          - /url: https://emicalculator.net/which-loan-should-you-prepay-first
+          - strong: Prepayments
+        - text: help you pay off your loan faster and reduce total interest cost.
+      - paragraph: We wish you an affordable home loan and a great new home!
+      - heading "Leave a Reply" [level=3]
+      - paragraph: Your email address will not be published. Required fields are marked *
+      - paragraph:
+        - text: Comment *
+        - textbox "Comment *"
+      - paragraph:
+        - text: Name *
+        - textbox "Name *"
+      - paragraph:
+        - text: Email *
+        - textbox "Email *"
+      - paragraph:
+        - text: Website
+        - textbox "Website"
+      - paragraph:
+        - button "Post Comment"
+      - heading "234 responses to “Home Loan EMI Calculator with Prepayments, Taxes & Insurance”" [level=2]
+      - list:
+        - listitem:
+          - article:
+            - text: "rajesh says:"
+            - link "July 3, 2025 at 5:49 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6943
+              - time: July 3, 2025 at 5:49 PM
+            - paragraph: Thank you for this calculator, it really helps
+            - link "Reply to rajesh":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6943#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Gulam Mustafa says:"
+            - link "July 1, 2025 at 9:55 AM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6898
+              - time: July 1, 2025 at 9:55 AM
+            - paragraph: This website is life saver, using it since couple of years. Kudos to website team.
+            - paragraph: "Feedback/request: Can you pls add option to add multiple “Partial Prepayments” instead of single “One-time only”, I know other options exists like “Monthly, Yearly & Quarterly” but I usually pay prepayments to bank randomly."
+            - paragraph: Thanks
+            - link "Reply to Gulam Mustafa":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6898#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Laxman says:"
+            - link "June 24, 2025 at 6:48 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6800
+              - time: June 24, 2025 at 6:48 PM
+            - paragraph: Best prepayment calculator I have found online, made my life easy. Thanks Team, wonderful work!!
+            - link "Reply to Laxman":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6800#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "VM says:"
+            - link "June 23, 2025 at 4:55 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6773
+              - time: June 23, 2025 at 4:55 PM
+            - paragraph:
+              - text: Thank you for making this. Made my life easy. Picture perfect calculation, details and clarity. I was looking all over the internet to understand benefit of long term home loan with partial prepayments. Glad I landed here. God bless you
+              - img "🙂"
+            - link "Reply to VM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6773#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "shubham says:"
+            - link "June 22, 2025 at 8:35 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6766
+              - time: June 22, 2025 at 8:35 PM
+            - paragraph: I am tech background, TBH loved this calculator, this is the best and awesome calculator I have seen till now.
+            - link "Reply to shubham":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6766#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Booba says:"
+            - link "May 29, 2025 at 8:23 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6294
+              - time: May 29, 2025 at 8:23 PM
+            - paragraph: Wow really nice. Its really helpful. thanks for sharing with us. God bless you.
+            - link "Reply to Booba":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6294#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "KALPESH JOTANIYA says:"
+            - link "May 24, 2025 at 7:41 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-6103
+              - time: May 24, 2025 at 7:41 PM
+            - paragraph: Superb Calculator for Home Loan Repayment
+            - link "Reply to KALPESH JOTANIYA":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=6103#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Kaushik Apte says:"
+            - link "April 1, 2025 at 9:04 AM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-5193
+              - time: April 1, 2025 at 9:04 AM
+            - paragraph: Really very nice its really helpful for all. Thanks a lot
+            - link "Reply to Kaushik Apte":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=5193#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Koti says:"
+            - link "March 28, 2025 at 8:29 AM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-5150
+              - time: March 28, 2025 at 8:29 AM
+            - paragraph: For pre payment, please also provide percentage increase for every year. Let’s say I want to increase the prepayment by 10% of EMI every year.
+            - link "Reply to Koti":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=5150#respond
+              - text: Reply
+        - listitem:
+          - article:
+            - text: "Sathish says:"
+            - link "March 12, 2025 at 9:55 PM":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/#comment-4848
+              - time: March 12, 2025 at 9:55 PM
+            - paragraph: Really appreciate your effort to make this calculator. It’s helps to work out various combinations to reduce the tenure and quick closure.
+            - link "Reply to Sathish":
+              - /url: https://emicalculator.net/home-loan-emi-calculator/?replytocom=4848#respond
+              - text: Reply
+      - button "Load More"
+- contentinfo:
+  - heading "Calculators & Widgets" [level=3]
+  - list:
+    - listitem:
+      - link "EMI Calculator":
+        - /url: https://emicalculator.net/
+    - listitem:
+      - link "Android App":
+        - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+    - listitem:
+      - link "Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate":
+        - /url: https://emicalculator.net/loan-calculator/
+    - listitem:
+      - link "Home Loan EMI Calculator with Prepayments, Taxes & Insurance":
+        - /url: https://emicalculator.net/home-loan-emi-calculator/
+    - listitem:
+      - link "Mobile-friendly EMI Calculator Widget":
+        - /url: https://emicalculator.net/emi-calculator-widget/
+    - listitem:
+      - link "Home Loan Interest Rates — As of July 1, 2025":
+        - /url: https://emicalculator.net/home-loan-interest-rates/
+  - heading "Android App" [level=3]
+  - paragraph:
+    - text: You can also download our
+    - link "EMI Calculator android app":
+      - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+      - strong: EMI Calculator android app
+    - text: from the Google Play Store.
+  - paragraph:
+    - link:
+      - /url: https://play.google.com/store/apps/details?id=net.emicalculator
+      - img
+  - heading "About Us" [level=3]
+  - list:
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://emicalculator.net/privacy-policy/
+    - listitem:
+      - link "Terms of Use":
+        - /url: https://emicalculator.net/terms-of-use/
+    - listitem:
+      - link "Contact Us":
+        - /url: https://emicalculator.net/contact/
+  - paragraph: Copyright © 2011-2025 emicalculator.net. All Rights Reserved.
+```

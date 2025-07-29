@@ -12,7 +12,7 @@ function writeResults(sheetName, data) {
   xlsx.writeFile(outputWorkbook, path.join(__dirname, '../data/homeloanoutput.xlsx'));
 }
 
-// ✅ Test 1: Home Loan EMI Calculator
+// Test 1: Home Loan EMI Calculator
 test('Home Loan EMI Calculator Test', async ({ page }) => {
   const input = xlsx.utils.sheet_to_json(inputWorkbook.Sheets['HomeLoan'])[0];
   const homeLoanPage = new HomeLoanPage(page);
@@ -26,7 +26,7 @@ test('Home Loan EMI Calculator Test', async ({ page }) => {
   //console.log(results);
 });
 
-// ✅ Test 2: Total Interest Visibility
+// Test 2: Total Interest Visibility
 test('Home Loan - Total Interest Check', async ({ page }) => {
   const homeLoanPage = new HomeLoanPage(page);
   await homeLoanPage.navigate();
@@ -47,7 +47,7 @@ test('Home Loan - Total Interest Check', async ({ page }) => {
   console.log({ InterestVisible: visible });
 });
 
-// ✅ Test 3: UI Elements Visibility
+// Test 3: UI Elements Visibility
 test('Home Loan - UI Elements Visibility', async ({ page }) => {
   const homeLoanPage = new HomeLoanPage(page);
   await homeLoanPage.navigate();
@@ -55,7 +55,7 @@ test('Home Loan - UI Elements Visibility', async ({ page }) => {
   console.log(ui);
 });
 
-// ✅ Test 4: Insurance Impact
+// Test 4: Insurance Impact
 test('Home Loan - Insurance Impact', async ({ page }) => {
   const homeLoanPage = new HomeLoanPage(page);
   await homeLoanPage.navigate();
@@ -76,7 +76,7 @@ test('Home Loan - Insurance Impact', async ({ page }) => {
   writeResults('InsuranceImpact', results);
 });
 
-// ✅ Test 5: Maintenance Impact
+// Test 5: Maintenance Impact
 test('Home Loan - Maintenance Impact', async ({ page }) => {
   const homeLoanPage = new HomeLoanPage(page);
   await homeLoanPage.navigate();

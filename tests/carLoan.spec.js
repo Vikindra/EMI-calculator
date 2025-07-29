@@ -15,7 +15,7 @@ function writeResults(sheetName, data) {
   xlsx.writeFile(outputWorkbook, path.join(__dirname, '../data/caroutput.xlsx'));
 }
 
-// ✅ Test 1: Car Loan Calculator - First Month Breakdown
+//  Test 1: Car Loan Calculator - First Month Breakdown
 test('Car Loan Calculator - First Month Breakdown', async ({ page }) => {
   const input = xlsx.utils.sheet_to_json(inputWorkbook.Sheets['CarLoan'])[0];
   const carLoanPage = new CarLoanPage(page);
@@ -70,7 +70,4 @@ test('Car Loan - Different Tenure', async ({ page }) => {
   });
    
 
-// ✅ Save output after all tests
- /*test.afterAll(() => {
-   xlsx.writeFile(outputWorkbook, path.join(__dirname, '../data/output.xlsx'));
-});*/
+

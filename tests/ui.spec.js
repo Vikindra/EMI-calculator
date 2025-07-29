@@ -17,21 +17,6 @@ function writeResults(sheetName, data) {
   xlsx.utils.book_append_sheet(outputWorkbook, worksheet, sheetName);
 }
 
-//  Test 1: Car Loan Calculator - First Month Breakdown
-// test('Car Loan Calculator - First Month Breakdown', async ({ page }) => {
-//   const input = xlsx.utils.sheet_to_json(inputWorkbook.Sheets['CarLoan'])[0];
-//   const carLoanPage = new CarLoanPage(page);
-
-//   await carLoanPage.navigate();
-//   await carLoanPage.fillLoanDetails({
-//     loanAmount: input['Loan Amount'],
-//     interestRate: input['Interest Rate'],
-//     tenure: input['Loan Tenure (Years)']
-//   });
-
-//   // const firstMonthData = await carLoanPage.getFirstMonthBreakup();
-//   // writeResults('CarLoan', [firstMonthData]);
-// });
 
 //  Test 2: Home Loan EMI Calculator
 test('Home Loan EMI Calculator Test', async ({ page }) => {
@@ -45,16 +30,7 @@ test('Home Loan EMI Calculator Test', async ({ page }) => {
   console.log(results);
 });
 
-// Test 3: Loan Calculator UI Validation
-// test('Loan Calculator UI Validation', async ({ page }) => {
-//   const input = xlsx.utils.sheet_to_json(inputWorkbook.Sheets['LoanCalculator'])[0];
-//   const loanCalcPage = new LoanCalculatorPage(page);
 
-//   await loanCalcPage.navigate();
-//   const results = [await loanCalcPage.validateUI(input)];
-//   writeResults('LoanCalculator', results);
-
-// });
 
 //  Save output after all tests
 test.afterAll(() => {

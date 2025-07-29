@@ -17,7 +17,7 @@ function writeResults(sheetName, data) {
 }
 
 
-// ✅ Test 3: Loan Calculator UI Validation
+// Test 1: Loan Calculator UI Validation
 test('Loan Calculator UI Validation', async ({ page }) => {
   const input = xlsx.utils.sheet_to_json(inputWorkbook.Sheets['LoanCalculator'])[0];
   const loanCalcPage = new LoanCalculatorPage(page);
@@ -72,6 +72,4 @@ test('Check Loan Amount Change', async ({ page }) => {
   
   });
   
-  /*test.afterEach(() => {
-     xlsx.writeFile(outputWorkbook, path.join(__dirname, '../data/loancalcoutput.xlsx'));
-  });*/
+  

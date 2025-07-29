@@ -25,12 +25,6 @@ class CarLoanPage {
     async getFirstMonthBreakup() {
         await this.page.click(this.clickYear);
       
-        // Wait for at least one row to appear
-       // await this.page.waitForSelector('//*[@id="year2025"] tbody tr', { timeout: 50000 });
-      
-       //const firstRow = this.page.locator('//*[@id="year2025"]/tbody/tr').first();
-       //const firstRow = this.page.locator('#year2025').first();
-
       return {
           Month: await this.page.locator("//td[normalize-space()='Jul']").first().textContent(),
           Principal: await this.page.locator('//*[@id="monthyear2025"]/td/div/table/tbody/tr[1]/td[2]').textContent(),
